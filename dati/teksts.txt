@@ -1,0 +1,13 @@
+Rīgā rudens vakari ir gari un klusi. Students sēž pie loga un lasa grāmatu par mākslīgo intelektu. Grāmatā rakstīts, ka valodas modelis mācās paredzēt nākamo vārdu. Modelis neredz pasauli, tas redz tikai tekstu. Tomēr no teksta var uzzināt ļoti daudz: kā cilvēki runā, kā viņi domā un ko viņi zina.
+
+Valoda ir rīks, ar ko mēs dalāmies zināšanās. Latviešu valodā ir garie patskaņi, mīkstinātie līdzskaņi un bagāta locīšana. Viens vārds var būt daudzās formās: māja, mājas, mājai, māju, mājā. Tāpēc datoram latviešu teksts ir grūtāks nekā angļu teksts. Tokenizators sadala vārdus mazākos gabalos, un garš vārds bieži kļūst par vairākiem tokeniem.
+
+Neironu tīkls sastāv no slāņiem. Katrs slānis pārveido skaitļus, ko tas saņem no iepriekšējā slāņa. Apmācības laikā tīkls kļūdās, un kļūda tiek izmantota, lai nedaudz mainītu svarus. Pēc miljoniem soļu tīkls kļūdās arvien retāk. Tā mašīna mācās no piemēriem, nevis no likumiem.
+
+Transformers ir arhitektūra, kurā katrs tokens var paskatīties uz citiem tokeniem. Uzmanības mehānisms izlemj, kuri vārdi ir svarīgi, lai saprastu pašreizējo vārdu. Teikumā "kaķis apgūlās uz paklāja, jo tas bija silts" vārds "tas" visvairāk skatās uz vārdu "paklājs". Tieši tā modelis apvieno nozīmi no visa teikuma.
+
+Konteksta logs ir modeļa darba atmiņa. Viss, kas ir logā, modelim ir redzams vienlaikus. Viss, kas ir ārpus loga, modelim neeksistē. Ja saruna kļūst pārāk gara, vecās daļas ir jāsaīsina vai jāizmet. Ilgtermiņa atmiņu var veidot ar ārējiem rīkiem: datubāzēm, meklēšanu un piezīmju failiem.
+
+Mūsdienu modeļi saprot ne tikai tekstu. Attēlu var sadalīt mazos kvadrātos, un katrs kvadrāts kļūst par tokenu. Skaņu var pārvērst spektrogrammā un arī sadalīt gabalos. Tā viens modelis var lasīt tekstu, skatīties attēlus un klausīties runu.
+
+Labs inženieris nepaļaujas tikai uz reklāmu. Viņš pats pārbauda modeļus ar saviem uzdevumiem, salīdzina atbildes, mēra laiku un izmaksas. Tikai tā var saprast, kurš modelis der konkrētam darbam.
